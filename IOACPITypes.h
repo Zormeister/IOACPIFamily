@@ -62,7 +62,13 @@ enum {
     kIOACPIAddressSpaceIDSystemIO           = 1,
     kIOACPIAddressSpaceIDPCIConfiguration   = 2,
     kIOACPIAddressSpaceIDEmbeddedController = 3,
-    kIOACPIAddressSpaceIDSMBus              = 4
+    kIOACPIAddressSpaceIDSMBus              = 4,
+    kIOACPIAddressSpaceIDSystemCMOS         = 5,
+    kIOACPIAddressSpaceIDPCIDeviceBAR       = 6,
+    kIOACPIAddressSpaceIDIPMI               = 7,
+    kIOACPIAddressSpaceIDGPIO               = 8,
+    kIOACPIAddressSpaceIDSerialBus          = 9,
+    kIOACPIAddressSpaceIDPCC                = 10
 };
 
 /*
